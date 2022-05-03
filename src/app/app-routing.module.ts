@@ -5,6 +5,11 @@ import { VacinasComponent } from './modules/vacinas/vacinas.component';
 
 const routes: Routes = [
   {
+    path: '',
+    redirectTo: 'vacinas',
+    pathMatch: 'full',
+  },
+  {
     path: 'vacinas',
     component: VacinasComponent,
   },
@@ -13,7 +18,7 @@ const routes: Routes = [
     component: VacinaComponent,
   },
   {
-    path: '',
+    path: '**',
     redirectTo: 'vacinas',
     pathMatch: 'full',
   },
