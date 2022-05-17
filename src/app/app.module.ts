@@ -5,12 +5,14 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { CardComponent } from './modules/vacinas/card/card.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     VacinaComponent,
-    VacinasComponent
+    VacinasComponent,
+    CardComponent
   ],
   imports: [
     BrowserModule,

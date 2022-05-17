@@ -1,0 +1,13 @@
+<div class="wrapper">
+  <div class="circle"></div>
+  <div class="content">
+    <div class="vacinas">
+      <div class="title">
+        <span>{{ item?.nome }}</span>
+      </div>
+      <div class="container">
+        <p *ngFor="let vacina of item?.vacinas">{{ vacina.nome }}</p>
+      </div>
+    </div>
+  </div>
+</div>

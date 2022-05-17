@@ -1,0 +1,46 @@
+.wrapper{
+    width: 100%;
+    position: relative;
+    margin-bottom: 24px;
+}
+
+.circle{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    background-color: #3d989b;
+    border-radius: 50%;
+    z-index: 2;
+    top: 0;
+    left: -4px;
+}
+
+.content{
+    margin-left: calc(16px + 16px);
+}
+
+.title{
+    width: 100%;
+    height: 24px;
+    background-color: #3d989b;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    padding: 8px 16px;
+    span{
+        color: white;
+        font-weight: bold;
+        text-transform: capitalize;
+    }
+}
+
+.vacinas{
+    background-color: #ADE6DC;
+    border-radius: 20px;
+    .container{
+        padding: 16px;
+        p {&:not(:last-child){
+            margin-bottom: 16px;
+        }}
+    }
+}

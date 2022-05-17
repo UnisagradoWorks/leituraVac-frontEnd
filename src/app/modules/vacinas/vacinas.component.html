@@ -10,7 +10,7 @@
       commodo consequat.
     </p>
     <div class="timeline">
-        <div class="card"></div>
+        <app-card class="card" *ngFor="let item of timelineData" [item]="item"></app-card>
         <div class="line"></div>
     </div>
   </div>
