@@ -1,0 +1,10 @@
+<div class="background">
+  <div class="header">
+    <img [routerLink]="['/vacinas']" src="assets/img/vacina/arrow-back.svg" />
+    <h1 class="title">{{ doenca?.nome }}</h1>
+  </div>
+  <p>{{ doenca?.descricao}}</p>
+  <div class="topicos">
+    <app-card-topico *ngFor="let topico of doenca?.topicos" [topico]="topico"></app-card-topico>
+  </div>
+</div>

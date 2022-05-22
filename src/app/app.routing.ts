@@ -1,4 +1,4 @@
-import { VacinaComponent } from './modules/vacina/vacina.component';
+import { VacinaComponent } from './modules/vacina/doenca.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { VacinasComponent } from './modules/vacinas/vacinas.component';

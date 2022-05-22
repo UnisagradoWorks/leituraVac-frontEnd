@@ -1,0 +1,11 @@
+<div class="wrapper" [ngClass]="{'is-open': isOpen}">
+    <div class="header" (click)="isOpen = !isOpen">
+      <span>
+        {{ topico?.titulo }}
+      </span>
+      <img src="assets/img/vacina/arrow-down.svg" />
+    </div>
+    <div class="conteudo">
+      <p>{{ topico?.conteudo }}</p>
+    </div>
+</div>

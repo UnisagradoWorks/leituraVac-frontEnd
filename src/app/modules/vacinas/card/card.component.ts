@@ -1,4 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 import { ITimelineItem } from 'src/assets/data/timeline';
 
 @Component({
@@ -9,9 +10,12 @@ import { ITimelineItem } from 'src/assets/data/timeline';
 export class CardComponent implements OnInit {
   @Input() item: ITimelineItem | undefined;
 
-  constructor() { }
+  constructor(private router: Router) { }
 
   ngOnInit(): void {
   }
 
+  abrirDoenca(id: string){
+    this.router.navigate(['/vacinas/' + id]);
+  }
 }

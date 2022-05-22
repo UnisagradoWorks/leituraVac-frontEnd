@@ -1,4 +1,4 @@
-<div class="wrapper">
+<div class="wrapper" >
   <div class="circle"></div>
   <div class="content">
     <div class="vacinas">
@@ -6,7 +6,7 @@
         <span>{{ item?.nome }}</span>
       </div>
       <div class="container">
-        <p *ngFor="let vacina of item?.vacinas">{{ vacina.nome }}</p>
+        <button *ngFor="let vacina of item?.vacinas" (click)="abrirDoenca(vacina.doencaId)">{{ vacina.nome }}</button>
       </div>
     </div>
   </div>
