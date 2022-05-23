@@ -3,8 +3,17 @@
     <img [routerLink]="['/vacinas']" src="assets/img/vacina/arrow-back.svg" />
     <h1 class="title">{{ doenca?.nome }}</h1>
   </div>
-  <p>{{ doenca?.descricao}}</p>
+  <p>{{ doenca?.descricao }}</p>
   <div class="topicos">
-    <app-card-topico *ngFor="let topico of doenca?.topicos" [topico]="topico"></app-card-topico>
+    <app-card-topico
+      *ngFor="let topico of doenca?.topicos"
+      [topico]="topico"
+    ></app-card-topico>
+  </div>
+  <div class="fontes">
+    <h1>Fonte(s):</h1>
+    <ul>
+      <li *ngFor="let fonte of doenca?.fontes"><a [href]="fonte">{{ fonte }}</a></li>
+    </ul>
   </div>
 </div>

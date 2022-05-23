@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
-import { DOENCAS, IDoenca } from 'src/assets/data/vacinas';
+import { DOENCAS, IDoenca } from 'src/assets/data/doencas';
 
 @Component({
   selector: 'app-doenca',

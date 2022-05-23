@@ -1,5 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { ITopicoDoenca } from 'src/assets/data/vacinas';
+import { ITopicoDoenca } from 'src/assets/data/doencas';
 
 @Component({
   selector: 'app-card-topico',

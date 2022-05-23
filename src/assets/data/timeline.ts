@@ -13,11 +13,11 @@ export const TIMELINE_DATA: ITimelineItem[] = [
     nome: 'ao nascer',
     vacinas: [
       {
-        doencaId: '1',
+        doencaId: 'bcgid',
         nome: 'BCG ID(Tuberculose)',
       },
       {
-        doencaId: '2',
+        doencaId: 'hepatiteb',
         nome: 'Hepatite B - 1ºDose',
       },
     ],
@@ -27,31 +27,31 @@ export const TIMELINE_DATA: ITimelineItem[] = [
     nome: 'com 2 meses',
     vacinas: [
       {
-        doencaId: '1',
+        doencaId: 'hepatiteb',
         nome: 'Hepatite B - 2ºDose',
       },
       {
-        doencaId: '2',
+        doencaId: 'tripliceBacteriana',
         nome: 'Tríplice bacteriana - 1ºDose',
       },
       {
-        doencaId: '3',
+        doencaId: 'bcgid',
         nome: 'BCG ID(Tuberculose)',
       },
       {
-        doencaId: '4',
+        doencaId: 'influenzaeB',
         nome: 'Haemophilus Influenzae b - 1ºDose',
       },
       {
-        doencaId: '5',
+        doencaId: 'poliomielite',
         nome: 'Poliomielite - 1ºDose',
       },
       {
-        doencaId: '6',
+        doencaId: 'rotavirus',
         nome: 'Rotavírus - 1ºDose',
       },
       {
-        doencaId: '7',
+        doencaId: 'pneumococicas',
         nome: 'Pneumocócicas - 1ºDose',
       },
     ],
@@ -61,19 +61,19 @@ export const TIMELINE_DATA: ITimelineItem[] = [
     nome: 'Com 3 meses',
     vacinas: [
       {
-        doencaId: '1',
+        doencaId: 'rotavirus',
         nome: 'Rotavírus - 2ºDose',
       },
       {
-        doencaId: '2',
-        nome: 'Pneumocócicas conjugadas - 2ºDose',
+        doencaId: 'pneumococicas',
+        nome: 'Pneumocócicas - 2ºDose',
       },
       {
-        doencaId: '3',
+        doencaId: 'meningococicasConjugadas',
         nome: 'Meningocócicas conjugadas ACWY/C - 1ºDose',
       },
       {
-        doencaId: '4',
+        doencaId: 'meningococicaB',
         nome: 'Meningocócica B - 1ºDose',
       },
     ],
@@ -83,24 +83,24 @@ export const TIMELINE_DATA: ITimelineItem[] = [
     nome: 'Com 4 meses',
     vacinas: [
       {
-        doencaId: '1',
+        doencaId: 'tripliceBacteriana',
         nome: 'Tríplice bacteriana - 2ºDose',
       },
       {
-        doencaId: '2',
+        doencaId: 'influenzaeB',
         nome: 'Haemophilus influenzae b - 2ºDose',
       },
       {
-        doencaId: '3',
+        doencaId: 'poliomielite',
         nome: 'Poliomielite - 2ºDose',
       },
       {
-        doencaId: '4',
+        doencaId: 'rotavirus',
         nome: 'Rotavírus - 3ºDose',
       },
       {
-        doencaId: '5',
-        nome: 'Pneumocócicas conjugadas - 3ºDose',
+        doencaId: 'pneumococicas',
+        nome: 'Pneumocócicas - 3ºDose',
       },
     ],
   },
@@ -109,11 +109,11 @@ export const TIMELINE_DATA: ITimelineItem[] = [
     nome: 'Com 5 meses',
     vacinas: [
       {
-        doencaId: '1',
+        doencaId: 'meningococicasConjugadas',
         nome: 'Meningocócicas conjugadas ACWY/C - 2ºDose',
       },
       {
-        doencaId: '2',
+        doencaId: 'meningococicaB',
         nome: 'Meningocócica B - 2ºDose',
       },
     ],
@@ -123,23 +123,23 @@ export const TIMELINE_DATA: ITimelineItem[] = [
     nome: 'Com 6 meses',
     vacinas: [
       {
-        doencaId: '1',
+        doencaId: 'hepatiteb',
         nome: 'Hepatite B - 3ºDose',
       },
       {
-        doencaId: '2',
+        doencaId: 'tripliceBacteriana',
         nome: 'Tríplice bacteriana - 3ºDose',
       },
       {
-        doencaId: '3',
+        doencaId: 'influenzaeB',
         nome: 'Haemophilus influenzae b - 3ºDose',
       },
       {
-        doencaId: '4',
+        doencaId: 'poliomielite',
         nome: 'Poliomielite - 3ºDose',
       },
       {
-        doencaId: '5',
+        doencaId: 'influenza',
         nome: 'Influenza(Anual)',
       },
     ],
@@ -149,7 +149,7 @@ export const TIMELINE_DATA: ITimelineItem[] = [
     nome: 'Com 7 meses',
     vacinas: [
       {
-        doencaId: '1',
+        doencaId: 'influenza',
         nome: 'Influenza(Anual)',
       },
     ],
@@ -159,7 +159,7 @@ export const TIMELINE_DATA: ITimelineItem[] = [
     nome: 'Com 8 meses',
     vacinas: [
       {
-        doencaId: '1',
+        doencaId: 'influenza',
         nome: 'Influenza(Anual)',
       },
     ],
@@ -169,11 +169,11 @@ export const TIMELINE_DATA: ITimelineItem[] = [
     nome: 'Com 9 meses',
     vacinas: [
       {
-        doencaId: '1',
+        doencaId: 'influenza',
         nome: 'Influenza(Anual)',
       },
       {
-        doencaId: '2',
+        doencaId: 'febreAmarela',
         nome: 'Febre Amarela - 1ºDose',
       },
     ],
@@ -183,31 +183,31 @@ export const TIMELINE_DATA: ITimelineItem[] = [
     nome: 'Com 12 meses',
     vacinas: [
       {
-        doencaId: '1',
-        nome: 'Pneumocócicas Conjugadas - Reforço',
+        doencaId: 'pneumococicas',
+        nome: 'Pneumocócicas - Reforço',
       },
       {
-        doencaId: '2',
+        doencaId: 'meningococicasConjugadas',
         nome: 'Meningocócicas Conjugadas ACWY/C - Reforço',
       },
       {
-        doencaId: '3',
+        doencaId: 'meningococicaB',
         nome: 'Meningocócica B - Reforço',
       },
       {
-        doencaId: '4',
+        doencaId: 'influenza',
         nome: 'Influenza(Anual)',
       },
       {
-        doencaId: '5',
+        doencaId: 'hepatiteA',
         nome: 'Hepatite A - 1ºDose',
       },
       {
-        doencaId: '6',
+        doencaId: 'tripliceViral',
         nome: 'Tríplice Viral - 1ºDose',
       },
       {
-        doencaId: '7',
+        doencaId: 'varicela',
         nome: 'Varicela - 1ºDose',
       },
     ],
@@ -217,39 +217,39 @@ export const TIMELINE_DATA: ITimelineItem[] = [
     nome: 'Com 15 meses',
     vacinas: [
       {
-        doencaId: '1',
+        doencaId: 'tripliceBacteriana',
         nome: 'Tríplice bacteriana - Reforço',
       },
       {
-        doencaId: '2',
+        doencaId: 'influenzaeB',
         nome: 'Haemophilus Influenzae b - Reforço',
       },
       {
-        doencaId: '3',
+        doencaId: 'poliomielite',
         nome: 'Poliomielite - Reforço',
       },
       {
-        doencaId: '4',
-        nome: 'Pneumocócicas Conjugadas - Reforço',
+        doencaId: 'pneumococicas',
+        nome: 'Pneumocócicas - Reforço',
       },
       {
-        doencaId: '5',
+        doencaId: 'meningococicasConjugadas',
         nome: 'Meningocócicas Conjugadas ACWY/C - Reforço',
       },
       {
-        doencaId: '6',
+        doencaId: 'meningococicaB',
         nome: 'Meningocócica B - Reforço',
       },
       {
-        doencaId: '7',
+        doencaId: 'influenza',
         nome: 'Influenza(Anual)',
       },
       {
-        doencaId: '8',
+        doencaId: 'tripliceViral',
         nome: 'Tríplice Viral - 2ºDose',
       },
       {
-        doencaId: '9',
+        doencaId: 'varicela',
         nome: 'Varicela - 2ºDose',
       },
     ],
@@ -259,31 +259,31 @@ export const TIMELINE_DATA: ITimelineItem[] = [
     nome: 'Com 18 meses',
     vacinas: [
       {
-        doencaId: '1',
+        doencaId: 'tripliceBacteriana',
         nome: 'Tríplice bacteriana - Reforço',
       },
       {
-        doencaId: '2',
+        doencaId: 'influenzaeB',
         nome: 'Haemophilus Influenzae b - Reforço',
       },
       {
-        doencaId: '3',
+        doencaId: 'poliomielite',
         nome: 'Poliomielite - Reforço',
       },
       {
-        doencaId: '4',
+        doencaId: 'influenza',
         nome: 'Influenza(Anual)',
       },
       {
-        doencaId: '5',
+        doencaId: 'hepatiteA',
         nome: 'Hepatite A - 2ºDose',
       },
       {
-        doencaId: '6',
+        doencaId: 'tripliceViral',
         nome: 'Tríplice Viral - 2ºDose',
       },
       {
-        doencaId: '7',
+        doencaId: 'varicela',
         nome: 'Varicela - 2ºDose',
       },
     ],
@@ -293,7 +293,7 @@ export const TIMELINE_DATA: ITimelineItem[] = [
     nome: 'Com 24 meses',
     vacinas: [
       {
-        doencaId: '1',
+        doencaId: 'influenza',
         nome: 'Influenza(Anual)',
       },
     ],
@@ -303,24 +303,28 @@ export const TIMELINE_DATA: ITimelineItem[] = [
     nome: 'Com 4 anos',
     vacinas: [
       {
-        doencaId: '1',
+        doencaId: 'tripliceBacteriana',
         nome: 'Tríplice bacteriana - Reforço',
       },
       {
-        doencaId: '2',
+        doencaId: 'poliomielite',
         nome: 'Poliomielite - Reforço',
       },
       {
-        doencaId: '3',
+        doencaId: 'influenza',
         nome: 'Influenza(Anual)',
       },
       {
-        doencaId: '4',
+        doencaId: 'hepatiteA',
         nome: 'Hepatite A - 2ºDose',
       },
       {
-        doencaId: '5',
+        doencaId: 'poliomielite',
         nome: 'Poliomielite Oral - 2ºDose',
+      },
+      {
+        doencaId: 'febreAmarela',
+        nome: 'Febre Amarela - 2ºDose',
       },
     ],
   },
@@ -329,19 +333,19 @@ export const TIMELINE_DATA: ITimelineItem[] = [
     nome: 'Com 5 anos',
     vacinas: [
       {
-        doencaId: '1',
+        doencaId: 'tripliceBacteriana',
         nome: 'Tríplice bacteriana - Reforço',
       },
       {
-        doencaId: '2',
+        doencaId: 'poliomielite',
         nome: 'Poliomielite - Reforço',
       },
       {
-        doencaId: '3',
+        doencaId: 'meningococicasConjugadas',
         nome: 'Meningocócicas Conjugadas ACWY/C - Reforço',
       },
       {
-        doencaId: '4',
+        doencaId: 'influenza',
         nome: 'Influenza(Anual)',
       },
     ],
@@ -351,11 +355,11 @@ export const TIMELINE_DATA: ITimelineItem[] = [
     nome: 'Com 6 anos',
     vacinas: [
       {
-        doencaId: '1',
+        doencaId: 'meningococicasConjugadas',
         nome: 'Meningocócicas Conjugadas ACWY/C - Reforço',
       },
       {
-        doencaId: '2',
+        doencaId: 'influenza',
         nome: 'Influenza(Anual)',
       },
     ],
@@ -365,26 +369,21 @@ export const TIMELINE_DATA: ITimelineItem[] = [
     nome: 'Com 9 anos',
     vacinas: [
       {
-        doencaId: '1',
+        doencaId: 'influenza',
         nome: 'Influenza(Anual)',
       },
       {
-        doencaId: '2',
+        doencaId: 'hpv',
         nome: 'HPV (2 doses)',
       },
       {
-        doencaId: '3',
+        doencaId: 'tripliceBacteriana',
         nome: 'Vacina Tríplice Bacteriana Acelular do Tipo Adulto - Reforço',
       },
       {
-        doencaId: '4',
+        doencaId: 'dengue',
         nome: 'Dengue (Três doses para soropositivos)',
       },
     ],
   },
 ];
-
-{
-  id: 1;
-  nome: ''
-}

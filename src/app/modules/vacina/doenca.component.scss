@@ -1,34 +1,49 @@
 .background {
-    width: 100vw;
-    height: 100vh;
-    background-color: white;
-    background: url(../../../assets/img/vacina/tile.png) repeat left top;
-  
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    padding: 24px;
-    overflow: auto;
-    >p{
-        font-size: 14px;
-        margin: 24px 0;
-    }
-  }
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+  background: url(../../../assets/img/vacina/tile.png) repeat left top;
 
-  .header{
-      width: 100%;
-      display: flex;
-      gap: 16px;
-      .title{
-          font-size: 18px;
-          color: #3D989B;
-      }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 24px;
+  overflow: auto;
+  > p {
+    font-size: 14px;
+    margin: 24px 0;
+    line-height: 1.4;
   }
+}
 
-  .topicos{
-      width: 100%;
-      display: flex;
-      flex-direction: column;
-      gap: 24px;
+.header {
+  width: 100%;
+  display: flex;
+  gap: 16px;
+  .title {
+    font-size: 18px;
+    color: #3d989b;
   }
+}
+
+.topicos {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.fontes {
+  margin-top: 24px;
+  width: 100%;
+  h1 {
+    font-size: 18px;
+    color: #3d989b;
+  }
+  li {
+    font-size: 14px;
+
+    word-break: break-all;
+  }
+}
